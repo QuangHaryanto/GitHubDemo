@@ -18,6 +18,13 @@ class ViewController: UIViewController {
     
     var temporary:String = ""
     
+    
+    @IBAction func klikButton(_ sender: Any) {
+        print ("Button clicked!")
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
